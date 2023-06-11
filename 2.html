@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset = "UTF-8">
-        <link rel="stylesheet" href="style.css">
-        <title> H&M</title>
+
+<head>
+
+    <meta charset="utf-8">
+    
+    <title>image slider</title>
+    
+    <link rel="stylesheet" href="2.css">
+    <style>
+        /* CSS styles for the image */
+        .hover-image {
+          width: 200px;
+          height: 200px;
+          transition: transform 0.3s ease-in-out;
+        }
+    
+        /* CSS styles for the image when hovered */
+        .hover-image:hover {
+          transform: scale(1.1);
+        }
+      </style>
+    
     
     </head>
+    
     <body>
-        <div class="slider">
-            <span style="--i:1;" onclick="inde.html"><img src="1.png" alt=""></span>
-            <span style="--i:2;"><img src="2.png" alt=""></span>
-            <span style="--i:3;"><img src="3.png" alt=""></span>
-            <span style="--i:4;"><img src="4.png" alt=""></span>
-            <span style="--i:5;"><img src="5.png" alt=""></span>
-            <span style="--i:6;"><img src="6.png" alt=""></span>
-            <span style="--i:7;"><img src="7.png" alt=""></span>
-            <span style="--i:8;"><img src="8.png" alt=""></span>
-        </div>
-    </body>
-</html>
+    
+    <div class="slider">
+    <span style="--i:1;"><a href="1.html"><img class="hover-image"src="1.png" alt=""></a></span>
+    <span style="--i:2;"><a href="1.html"><img class="hover-image"src="2.jpg" alt=""></a></span>
+    <span style="--i:3;"><a href="1.html"><img class="hover-image"src="3.jpg" alt=""></a></span>
+    <span style="--i:4;"><a href="1.html"><img class="hover-image"src="4.jpg" alt=""></a></span>
+    <span style="--i:5;"><a href="1.html"><img class="hover-image"src="5.jpg" alt=""></a></span>
+    <span style="--i:6;"><a href="1.html"><img class="hover-image"src="6.jpg" alt=""></a></span>
+    <span style="--i:7;"><a href="1.html"><img class="hover-image"src="7.jpg" alt=""></a></span>
+    <span style="--i:8;"><a href="1.html"><img class="hover-image"src="9.png" alt=""></a></span>
+    
+    </div>
+    
+</body>
+    
+    </html>
